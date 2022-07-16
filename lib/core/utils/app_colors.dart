@@ -5,4 +5,6 @@ class AppColors {
   static Color primary = HexColor('#CA4E79');
   static Color hint = Colors.grey;
   static Color scaffoldBackground = Colors.black;
+  static Color error = Colors.red;
+  static Color transparent = Colors.transparent;
 }
