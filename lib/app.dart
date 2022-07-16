@@ -4,7 +4,7 @@ import 'package:random_quote_clean_architecture_bloc_app/config/themes/app_theme
 import 'package:random_quote_clean_architecture_bloc_app/core/utils/app_strings.dart';
 
 class QuoteApp extends StatelessWidget {
-  const QuoteApp({Key? key}) : super(key: key);
+  const QuoteApp({Key? key}) : super(key: key); 
 
   @override
   Widget build(BuildContext context) {

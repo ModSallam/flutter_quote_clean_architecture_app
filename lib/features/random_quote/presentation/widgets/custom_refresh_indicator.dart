@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:random_quote_clean_architecture_bloc_app/core/utils/app_colors.dart';
 
 class CustomRefreshIndicator extends StatelessWidget {
+  final Function() onPressed;
+
   const CustomRefreshIndicator({
     Key? key,
+    required this.onPressed,
   }) : super(key: key);
 
   @override
@@ -15,7 +18,7 @@ class CustomRefreshIndicator extends StatelessWidget {
         color: AppColors.primary,
       ),
       child: IconButton(
-        onPressed: () {},
+        onPressed: onPressed,
         icon: const Icon(
           Icons.refresh,
           size: 28.0,
